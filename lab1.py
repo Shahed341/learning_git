@@ -15,7 +15,7 @@ def max_word_count(file_path):
                 else:
                     word_count[word] = 1
 
-    max_count = 0
+    max_count = 0  # Comment added
     most_common_word = None
     for word, count in word_count.items():  # Reading the key and value of dictionary to count max and common word
         if count > max_count:
