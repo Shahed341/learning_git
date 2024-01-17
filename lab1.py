@@ -27,4 +27,4 @@ def max_word_count(file_path):
 
 file_path = "sample.txt"
 max_count, most_common_word = max_word_count(file_path)
-print(f"Most common word is: '{most_common_word}' = {max_count} times")
+print(f"Most common word is: '{most_common_word}' = {max_count} times")  # modified the print comment
